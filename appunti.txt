@@ -1,0 +1,4 @@
+ho creato la cartella corso-informatica
+ho imparato a usare dir e cd
+ora so creare file nuovi
+giorno 2 - ho imparato git log  per vedere la storia di 3 commit
