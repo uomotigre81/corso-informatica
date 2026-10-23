@@ -2,3 +2,5 @@ ho creato la cartella corso-informatica
 ho imparato a usare dir e cd
 ora so creare file nuovi
 giorno 2 - ho imparato git log  per vedere la storia di 3 commit
+Giorno 3 - ipconfig e ping ok
+Giorno 3 - il mio IP e' 192.168.1.29 e il gateway e' 192.168.1.1 - ping ok
