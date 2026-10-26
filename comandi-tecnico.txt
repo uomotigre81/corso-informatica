@@ -1,0 +1,8 @@
+COMANDI TECNICO - Giorno 1-5
+pwd = dove sono
+dir = cosa c'e dentro
+cd = entro in cartella
+mkdir = creo cartella
+ipconfig = vedo IP
+ping 8.8.8.8 = testo internet
+git status, add, commit, log, checkout -- file = recupero file
