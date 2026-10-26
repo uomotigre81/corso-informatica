@@ -1,8 +1,28 @@
-COMANDI TECNICO - Giorno 1-5
-pwd = dove sono
-dir = cosa c'e dentro
-cd = entro in cartella
-mkdir = creo cartella
-ipconfig = vedo IP
-ping 8.8.8.8 = testo internet
-git status, add, commit, log, checkout -- file = recupero file
+--- CARTELLE ---
+pwd = dove sono ora
+dir = cosa c'e' qui dentro
+cd nome-cartella = entro nella cartella
+cd .. = torno indietro
+mkdir nome = creo cartella nuova
+cd C:\Users\uomot\Desktop\corso-informatica = vado dritto nella cartella di lavoro
+--- FILE ---
+Remove-Item "nome" = cancello file o cartella
+Rename-Item -Path "vecchio" -NewName "nuovo" = rinomino
+Add-Content file.txt "testo" = aggiungo riga senza cancellare
+Get-Content file.txt / type file.txt = leggo il file
+ipconfig > file.txt = salvo output in un file ( > si fa con Shift + tasto vicino a Z)
+--- RETE ---
+ipconfig = vedo IP e gateway (192.168.1.1)
+ping 8.8.8.8 = provo se esco su internet - 0% persi = ok
+ping google.com = provo DNS
+ping 192.168.1.1 = provo router di casa
+--- GIT (salvataggi) ---
+git status = cosa e' cambiato
+git add . = preparo tutto
+git add nome.txt = preparo solo quel file
+git commit -m "messaggio" = salvo davvero
+git log --oneline = storia corta
+git log --oneline -1 = solo ultimo
+git diff = vedo cosa e' cambiato riga per riga
+git checkout -- nome.txt = ripristino file cancellato
+git commit --amend -m "nuovo" = correggo ultimo messaggio
