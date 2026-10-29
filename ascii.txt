@@ -1,0 +1,24 @@
+ASCII - Tabella per tradurre binario in lettere
+Ogni lettera = 8 bit (1 byte)
+ESEMPIO DEL CORSO - hello
+01101000 = h
+01100101 = e
+01101100 = l
+01101100 = l
+01101111 = o
+= hello
+TABELLA BASE
+Lettera | Binario    | Decimale
+A       | 01000001   | 65
+B       | 01000010   | 66
+C       | 01000011   | 67
+a       | 01100001   | 97
+b       | 01100010   | 98
+h       | 01101000   | 104
+e       | 01100101   | 101
+l       | 01101100   | 108
+o       | 01101111   | 111
+0       | 00110000   | 48
+1       | 00110001   | 49
+Spazio  | 00100000   | 32
+Come si usa: prendi il binario, cerchi nella tabella e trovi la lettera
